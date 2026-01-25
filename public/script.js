@@ -5,6 +5,10 @@ menu_btn.addEventListener('click', () => {
     menu_list.classList.toggle('active')  // no dot
 })
 
-document.querySelector('.a01').addEventListener('click',()=>{
-    window.location.href='netflix.html'
+document.querySelector('.a01').addEventListener('click', () => {
+    window.location.href = 'netflix.html'
+})
+
+document.querySelector('.a02').addEventListener('click', () => {
+    window.location.href = 'calculator.html'
 })
